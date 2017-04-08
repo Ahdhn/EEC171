@@ -1,0 +1,74 @@
+Details
+
+Time: TuTh 10:00-11:50 am
+Location: Olsen 267
+Instructor: John Owens
+jowens@ece | http://www.ece.ucdavis.edu/~jowens/
+Office hour: 2:30-3:30 Th 3175 Kemper
+TA: Terry O’Neill
+toneill@ucdavis.edu
+Office hour: Monday 3-4pm Kemper 2101
+Text
+
+Required: John Hennessy and David Patterson, Computer Architecture: A Quantitative Approach (Links to an external site.), 5th Edition. This edition is substantially changed from previous editions; please purchase the 5th edition.
+Recommended: Jon M. Stokes, Inside the Machine (Links to an external site.), one of the most accessible and well written technical books I've ever read. Excellent and up to date information on modern processors. Available for free in "Resources". 
+ 
+
+Electronic Resources
+
+Class home page: https://canvas.ucdavis.edu/courses/114024/
+We will use Slack for class communication (join the class Slack (Links to an external site.))
+Email teaching staff: Don't! Use slack.
+Do not send mail to the teaching staff's personal accounts if you want a timely reply. Terry will handle most electronic communication (through Slack). Feel free to contact both instructor and TA together via Slack.
+Prereqs
+
+EEC 170 or ECS 154A. Good programming skills. This course is a hardware course and the projects will be hardware-focused but will be done in software.
+
+ 
+
+Schedule
+
+Lecture 1: Intro (April 4)
+Lecture 2: Technology, Economics, and Workloads (H&P Ch. 1.4, 1.5, 1.6, 1.8)  (April 6)
+Lecture 2: ILP Warmup Explanation (April 6)
+Lectures 3–6: Instruction Level Parallelism (H&P Ch. 3)
+Lecture 4: ILP Project Explanation (April 13)
+Lecture 6 will be covered by Venkatesh Akella
+Lectures 7–11: Thread Level Parallelism (H&P Ch. 5, Appendix F, I)
+Lecture 7: TLP Warmup Explanation (April 25)
+Lecture 9: TLP Project Explanation (May 2)
+Lecture 12: Midterm 1 (May 11)
+Lectures 13–16: Data Level Parallelism (H&P Ch. 4, Appendix G; CUDA Programming Guide (Links to an external site.); most material not in text)
+Lecture 14: DLP Warmup Explanation (May 18)
+Lecture 15: DLP Project Explanation (May 23)
+Lecture 17: Case Studies (May 30)
+Lecture 18: Midterm 2 (June 1)
+Lecture 19: To be decided (June 6)
+Lecture 20: Wrap-up (June 8)
+Final: Wednesday, June 9 (8 AM)
+To instructors who might want to use material from this course: I'm happy to provide source (Keynote) for the slides I used; I can make ppt from the Keynote slides as well. Please let me know.
+
+ 
+
+Assignments
+
+ILP Warmup, due 10 am Thursday April 13, 2017
+Homework 1, due 10 am Thursday April 20, 2017
+ILP Project, due 10 am Friday April 21, 2017
+TLP Warmup, due 10 am Tuesday May 2, 2017
+Homework 2, due 10 am Tuesday May 9, 2017
+TLP Project, due 10 am Friday May 12, 2017
+DLP Warmup, due 10 am, Thursday May 25, 2017
+Homework 3, due 10 am Thursday June 1, 2017
+DLP Project, due 10 am, Thursday, June 9, 2017
+For each of the three units in the course (ILP, TLP, DLP), we will have one written homework (problem set) and one programming project.
+
+Grading
+
+Letter; based on homework (10%), projects (30%), midterms (15% each), and final (30%).
+
+The midterms and final must be taken at the appointed time; in the event of a student emergency, midterm and final makeups will be oral. We reserve the right to regrade entire exams or homeworks in the event of a request for a regrade. Regrade requests should be in writing, and must be given to the teaching staff within one week of the time the assignment/exam was returned to you.
+
+Late policy (projects only): -20%/day late, weekends count as one day.
+
+Grades are earned, not awarded or negotiated, and to the best of my ability, I will give you the grade that you earn. The grade you earn is indicated by the grades you receive on exams, homeworks, and projects. If you feel it is indicated by something other than exams, homeworks, and projects, and you want to know my views on this topic, please read Making the Grade (Links to an external site.) by Georgia Tech Professor Kurt Wiesenfeld.

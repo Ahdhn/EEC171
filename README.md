@@ -6,6 +6,6 @@ UC Davis - Spring 2017
 
 
 
-Course website: 
+Course website: https://canvas.ucdavis.edu/courses/114024/
 
-This course is on ray tracing to render photo-realist computer graphic images. To get effects like motion blur, depth of field, and smooth-appearing object edges, we use multiple viewing rays for each pixel, to do Monte Carlo integration over the pixel area, the lens area, and time. We account for the effects of multiple bounces of light from the light sources across shiny or diffuse surfaces in the scene, and finally into the eye or camera. This is called "Global Illumination".
+Organization and design of parallel processors including shared-memory multiprocessors, cache coherence, memory consistency, snooping protocols, synchronization, scalable multiprocessors, message passing protocols, distributed shared memory and interconnection networks.
