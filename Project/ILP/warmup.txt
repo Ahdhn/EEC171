@@ -1,0 +1,30 @@
+ILP Warm-up
+ 
+
+For your ILP project you will use Simplescalar to make informed architectural choices in the development of a hypothetical processor. The SimpleScalar tool set is a system software infrastructure used to build modeling applications for program performance analysis, detailed microarchitectural modeling, and hardware-software co-verification. Simplescalar is used widely in computer architecture research, it is cited in literally thousands of academic publications. You will use it to analyze the performance of small set of applications on various processor configurations, study results and decide on tradeoffs between processors designs.
+
+To get started, you should peruse this overview of the simplescalar toolset: http://www.simplescalar.com/docs/users_guide_v2.pdf
+
+ 
+
+In this warm-up you will become familiar with the toolchain and run some benchmarks. You can access simplescalar from the following location on the snake cluster:
+
+/afs/ece/users/jowens/simplescalar/
+
+The benchmark files can be found in the subdirectory ./benchmarks. Information on running the benchmarks can be found in the readme file. The four applications are as follows:
+
+ 
+
+anagram: a program for finding anagrams for a phrase, based on a dictionary.
+compress: (SPEC) compresses and decompresses a file in memory.
+go: Artificial intelligence; plays the game of go against itself.
+gcc: (SPEC) limited version of gcc.
+ 
+
+The simulation executables can be found in subdirectory ./simplesim-3.0 You should add this directory to your path for ease of use over the next few weeks.
+
+Simplescalar is currently configured as a version of the DEC Alpha processor. So we will run the versions of the benchmarks compiled for the Alpha.
+
+Your assignment is to complete the table below. The information for all but the last column can be computed using sim-profile. To compute the Instructions Per Cycle, the last column, you must use sim-outorder.
+
+By default, the information necessary is not reported by the tool. You’ll have to find the appropriate command line switches in the users guide referenced above.

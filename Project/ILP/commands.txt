@@ -1,0 +1,9 @@
+cd to  /home/ahdhn/simplescalar/simplesim-3.0
+
+./sim-outorder -config processor_3.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_3_go.txt
+
+./sim-outorder -config processor_3.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_3_cc1.txt
+
+./sim-outorder -config processor_3.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_3_anagram.txt
+
+./sim-outorder -config processor_3.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_3_compress.txt
