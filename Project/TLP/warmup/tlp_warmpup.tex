@@ -1,0 +1,42 @@
+\documentclass[12pt] {article}
+\usepackage{times}
+\usepackage[margin=1in,bottom=1in,top=0.5in]{geometry}
+
+\usepackage{hhline}
+
+\begin{document}
+
+\title{TLP Project Warm-up}
+\author{Ahmed H. Mahmoud}
+\date{}
+\maketitle
+
+%============ Pthreads ========
+\section{Using Pthreads}
+\paragraph{Processor speed information:} The processors speed are as listed below
+\begin{enumerate}
+\item Processor 0: CPU (MHz) = 1211.367
+\item Processor 1: CPU (MHz) = 1221.093
+\item Processor 2: CPU (MHz) = 1248.632
+\item Processor 3: CPU (MHz) = 1270.781
+\end{enumerate}
+All are of the model name Intel(R) Xeon(R) CPU E5-1607 0 @ 3.00GHz with four cores each.
+
+Due to the fluctuation of the reported runtime between two different runs using the same number of threads, in all computation we took the average of 100 runs. The following listing shows the average runtime using different number of threads. The number of threads used such that the results of the dot product is accurate when distributed over different threads (MAXTHRDS \emph{mod} $1M=0$)
+
+\begin{enumerate}
+\item $\#$Threads $=2$ , AvgRunTime = $1.493452$ mSecs
+\item $\#$Threads $=5$ , AvgRunTime = $1.255251$ mSecs
+\item $\#$Threads $=8$ , AvgRunTime = $0.847300$ mSecs
+\item $\#$Threads $=10$, AvgRunTime = $1.026692$ mSecs
+\item $\#$Threads $=16$, AvgRunTime = $0.944243$ mSecs
+\item $\#$Threads $=20$, AvgRunTime = $0.974341$ mSecs
+\item $\#$Threads $=25$, AvgRunTime = $1.066760$ mSecs
+\end{enumerate}
+It is reasonable that with increasing the number of threads (from $2$ to $8$), the average runtime decreasing due to disturbing the computation over different threads and exploiting more parallelism. But after 8 threads, the average runtime increases again which could be due to the fact that the cost/overhead of launching more threads is higher than the computation itself.
+ 
+%============ MPI ========
+\section{Using MPI}
+Average runtime over $30$ runs with vector length of $100$ is $9.55815$ mSec and for vector of length $10M$ is $49.3826$ mSec. Since for $10M$ case the work per node increases almost equally over all nodes, the runtime of the program increases too.
+
+\end{document}
