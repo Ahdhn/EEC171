@@ -1,0 +1,4 @@
+#!/bin/sh
+# GCC was configured as follows:
+./configure --target=ssbig-na-sstrix --with-gnu-as --with-gnu-ld --prefix=/free/toneill/simplescalar
+echo host=ssbig-na-sstrix target=ssbig-na-sstrix build=ssbig-na-sstrix

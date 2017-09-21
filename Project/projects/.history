@@ -1,0 +1,2338 @@
+#+1468348586
+pwd
+#+1468348596
+mkdir ~/Html
+#+1468348599
+ls
+#+1468348768
+chmod a+x ~/.
+#+1468348781
+chmod -R a+X ~/Html
+#+1468348791
+chmod -R a+r ~/Html
+#+1468349043
+exit
+#+1468349092
+exit
+#+1468349100
+exit
+#+1468349122
+exit
+#+1468439155
+chmod -R a+X ~/html
+#+1468439161
+chmod -R a+r ~/html
+#+1468439197
+chmod a+x ~/.
+#+1468439203
+chmod -R a+X ~/Html
+#+1468439209
+chmod -R a+r ~/Html
+#+1468439256
+cd Html/
+#+1468439261
+chmod -R a+X ~/Html
+#+1468439265
+chmod -R a+r ~/Html
+#+1468439411
+exit
+#+1471664657
+chmod a+x ~/.
+#+1471664657
+chmod -R a+X ~/Html
+#+1471664661
+chmod -R a+r ~/Html
+#+1471664691
+chmod -R a+X ~/Html
+#+1471664692
+chmod -R a+r ~/Html
+#+1471664826
+chmod -R a+X ~/Html
+#+1471664833
+chmod -R a+r ~/Html
+#+1471664924
+chmod -R a+X ~/Html
+#+1471664926
+chmod -R a+r ~/Html
+#+1471720372
+chmod -R a+X ~/Html
+#+1471720373
+chmod -R a+r ~/Html
+#+1471720400
+chmod -R a+X ~/Html
+#+1471720402
+chmod -R a+r ~/Html
+#+1471720452
+chmod -R a+X ~/Html
+#+1471720453
+chmod -R a+r ~/Html
+#+1471720494
+chmod a+x ~/
+#+1471720501
+chmod -R a+X ~/Html
+#+1471720506
+chmod -R a+r ~/Html
+#+1471720615
+chmod a+x ~/
+#+1471720617
+chmod -R a+r ~/Html
+#+1471721189
+chmod -R a+X ~/Html
+#+1471721191
+chmod -R a+r ~/Html
+#+1471721388
+exit
+#+1475278614
+who
+#+1475278639
+ls
+#+1475278704
+sftp
+#+1475279087
+ls
+#+1475279092
+ls -a
+#+1475279106
+cd.
+#+1475279109
+cd .
+#+1475279111
+ls
+#+1475279115
+ls -a
+#+1475279118
+cd ..
+#+1475279119
+ls
+#+1475279123
+ls -a
+#+1475279126
+cd ..
+#+1475279128
+ls
+#+1475279143
+ls -a
+#+1475279154
+cd ..
+#+1475279156
+ls
+#+1475279173
+cd ..
+#+1475279173
+ls
+#+1475279183
+cd etc
+#+1475279184
+ls
+#+1475279235
+cd ssh
+#+1475279236
+ls
+#+1475279248
+ls -a
+#+1475279300
+cd ..
+#+1475279301
+cd ..
+#+1475279302
+ls
+#+1475279304
+cd home
+#+1475279305
+ls
+#+1475279330
+pwd
+#+1475279381
+scp -r . ahdhn@snake.ece.ucdavis.edu: .
+#+1475279417
+ls
+#+1475279419
+cd ahdhn/
+#+1475279420
+ls
+#+1475279427
+cd Html/
+#+1475279429
+ls
+#+1475279537
+open index.html
+#+1475279597
+ftp
+#+1475279739
+exit
+#+1475279930
+exit
+#+1475280245
+chmod -R a+X ~/Html
+#+1475280253
+chmod -R a+r ~/Html
+#+1475280403
+chmod -R a+X ~/Html
+#+1475280405
+chmod -R a+r ~/Html
+#+1475280674
+chmod -R a+X ~/Html
+#+1475280676
+chmod -R a+r ~/Html
+#+1475280705
+chmod -R a+r ~/Html
+#+1475280709
+chmod -R a+X ~/Html
+#+1475280710
+chmod -R a+r ~/Html
+#+1492140471
+cd ..
+#+1492140472
+ls
+#+1492140475
+cd ..
+#+1492140476
+ls
+#+1492140482
+cd afs/
+#+1492140484
+ls
+#+1492140487
+cd ece
+#+1492140489
+ls
+#+1492140497
+cd ..
+#+1492140501
+cd ece.ucdavis.edu/
+#+1492140502
+ls
+#+1492140520
+cd users/
+#+1492140522
+ls
+#+1492140524
+cd jowens/
+#+1492140525
+ls
+#+1492140535
+cd simplescalar/
+#+1492140708
+ls
+#+1492140891
+pwd
+#+1492140895
+cd benchmarks/
+#+1492140896
+pwd
+#+1492140906
+diff OUT anagram.out
+#+1492140976
+sim-safe g.alpha 50 9 2stone9.in
+#+1492140979
+sim-safe g.alpha 50 9 2stone9.in > out
+#+1492182987
+pwd
+#+1492183032
+sim-dafe cc1.alpha -O 1stmt.i
+#+1492183037
+sim-safe cc1.alpha -O 1stmt.i
+#+1492183039
+./sim-safe cc1.alpha -O 1stmt.i
+#+1492183052
+ls
+#+1492184471
+pwd
+#+1492185185
+pwd
+#+1492185208
+./anagram.out
+#+1492185249
+diff OUT anagram.out
+#+1492191894
+pwd
+#+1492191900
+cd "/home/ahdhn/"
+#+1492191902
+pwd
+#+1492191904
+ls
+#+1492191935
+cd simplescalar/
+#+1492191936
+ls
+#+1492191948
+ls
+#+1492191950
+cd simplesim-3.0/
+#+1492191951
+ls
+#+1492191965
+make sim-tests
+#+1492192395
+pwd
+#+1492192399
+cd ..
+#+1492192399
+pwd
+#+1492192402
+ls
+#+1492192405
+cd benchmarks/
+#+1492192426
+sim-safe go.alpha 50 9 2stone9.in > OUT
+#+1492192440
+sim-safe go.alpha 50 9 2stone9.in > OUT
+#+1492192448
+sim-safe go.alpha 50 9 < stone9.in > OUT
+#+1492192461
+./sim-safe go.alpha 50 9 < stone9.in > OUT
+#+1492192467
+./sim-safe go.alpha 50 9 2stone9.in > OUT
+#+1492192490
+diff OUT go.out
+#+1492192527
+diff OUT compress95.out
+#+1492192535
+diff OUT anagram.out
+#+1492192542
+diff 1stmt.s 1stmt.s.ref
+#+1492192558
+./sim-safe cc1.alpha -O 1stmt.i
+#+1492192580
+./sim-safe cc1. < target > -O 1stmt.i
+#+1492192599
+./sim-safe cc1.alpha -O 1stmt.i
+#+1492192627
+diff 1stmt.s 1stmt.s.ref
+#+1492192638
+cd ..
+#+1492192641
+cd simplesim-3.0/
+#+1492192642
+ls
+#+1492192649
+./sim-profile
+#+1492192701
+ls
+#+1492192844
+sim-profile -pcstat sim_num_insn test-math > & !
+#+1492192844
+test-math.out
+#+1492192844
+objdump -dl test-math > ! test-math.dis
+#+1492192844
+textprof.pl test-math.dis test-math.out
+#+1492192959
+./sim-profile -pcstat sim_num_insn test-math > & ! test-math.out objdump -dl test-math > ! test-math.dis textprof.pl test-math.dis test-math.out sim_num_insn_by_pc
+#+1492193000
+./sim-profile -pcstat sim_num_insn test-math > & ! test-math.out objdump -dl test-math > ! test-math.dis textprof.pl test-math.dis test-math.out sim_num_insn_by_pc
+#+1492193197
+vi pipeview.pl textprof.pl
+#+1492286279
+pwd
+#+1492286284
+ls
+#+1492286287
+cd simplescalar/
+#+1492286289
+ls
+#+1492286293
+cd ..
+#+1492286296
+cd ILP/
+#+1492286297
+ls
+#+1492286302
+ls -a
+#+1492298562
+ls
+#+1492298564
+cd ..
+#+1492298566
+cd ..
+#+1492298566
+ls
+#+1492298570
+cd afs/
+#+1492298571
+ls
+#+1492298574
+cd ece.ucdavis.edu/
+#+1492298575
+ls
+#+1492298578
+cd users/
+#+1492298580
+cd jowens/
+#+1492298583
+cd simplescalar/
+#+1492298588
+cd simplesim-3.0/
+#+1492298625
+./sim-outorder /afs/ece.ucdavis.edu/users/jowens/simplescalar/benchmarks/cc1.alpha > & /home/ahdhn/ILP/cc1_sim_outorder.txt
+#+1492648100
+pwd
+#+1492649495
+./sim-outorder /afs/ece.ucdavis.edu/users/jowens/simplescalar/benchmarks/compress95.alpha < /afs/ece.ucdavis.edu/users/jowens/simplescalar/benchmarks/compress95.in > & /home/ahdhn/ILP/compress95_sim_outorder.txt
+#+1492649521
+pwd
+#+1492649523
+ls
+#+1492649548
+cd simplescalar/
+#+1492649553
+cd simplesim-3.0/
+#+1492649644
+./sim-outorder ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/bas_config_compress.txt
+#+1492649723
+./sim-profile -iclass ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/bas_config_compress.txt
+#+1492649761
+./sim-profile -iclass ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/bas_config_compress.txt
+#+1492649826
+./sim-outorder -config base171.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/bas_config_compress.txt
+#+1492649868
+./sim-profile -iclass -config base171.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/bas_config_compress.txt
+#+1492649901
+./sim-profile -config base171.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/bas_config_compress.txt
+#+1492650009
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492657969
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492658024
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & -q ../../ILP_Project/pro_1_compress.txt
+#+1492658058
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & -q ../../ILP_Project/pro_1_compress.txt
+#+1492658073
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & -q ../../ILP_Project/pro_1_compress.txt
+#+1492725202
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492729014
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492729243
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492729484
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492729590
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492730734
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492730737
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492730968
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492730997
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492731340
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492731534
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492731541
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492731659
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492731665
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492731685
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492731839
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492731917
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492731920
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492731944
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492732192
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492732195
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492732218
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492732479
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492732482
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492732502
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492732711
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492732715
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492732741
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492732943
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492732960
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492732986
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733010
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492733213
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492733215
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733286
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492733288
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733314
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492733316
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733383
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492733385
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733542
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492733544
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733565
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492733888
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492733891
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492733909
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492734163
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492734165
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492734176
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492734180
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492734200
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492734745
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492734748
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492734804
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492734807
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492734906
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492734907
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492734929
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492735231
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492735233
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492735249
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492735512
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492735516
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492735537
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492735935
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492735940
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492735944
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492735965
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492738334
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492738336
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492738351
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492738651
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492738653
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492738690
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492739042
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492739048
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492739099
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492739101
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492739131
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492739503
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492739506
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492739521
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492739842
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492739845
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492739870
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492739872
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492739889
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492740187
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492740190
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492740292
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492740294
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492740528
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492740530
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492740544
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492740670
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492740672
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492740687
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492741584
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492741586
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492741608
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492741907
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492741909
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492741929
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492741934
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492741952
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492742253
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492742255
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492742278
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492743087
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492743089
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492743109
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492743357
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492743360
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492743380
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492743656
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492744358
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492744360
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492744434
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492744440
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492744480
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492744756
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492745545
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492745564
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492745569
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492745823
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492746315
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492746323
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492746341
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492746873
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492746883
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492746888
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492746922
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492747269
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492748005
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492748008
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492748024
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492748156
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492748159
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492748176
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492748502
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492748504
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492748576
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492748577
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492748636
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492748637
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492748804
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_1_compress.txt
+#+1492748806
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_1_anagram.txt
+#+1492748832
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_1_cc1.txt
+#+1492749144
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_1_go.txt
+#+1492773726
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492773738
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492773747
+./sim-outorder -config processor_1.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492773753
+./sim-outorder -config processor_1.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492774518
+./sim-outorder -config processor_1.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492774521
+./sim-outorder -config processor_1.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492774627
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492774634
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492774644
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492774651
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492774668
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492774671
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492774693
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492774981
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492775019
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492775022
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492775039
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492775040
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492775061
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492775450
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492775453
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492775472
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492776911
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492776916
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492776919
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492776944
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492777360
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492777362
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492777384
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492777385
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492777437
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492777898
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492777900
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492777925
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492777993
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492777995
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492778073
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492778075
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492778149
+pwd
+#+1492778756
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492778760
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492778800
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492779285
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492779287
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492779317
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492779686
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492779689
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492779706
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492779707
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492779747
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492780097
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492780099
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492780115
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492780424
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492780425
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492780467
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492780526
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492780528
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492780581
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492780924
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492782062
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492782064
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492782069
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492782080
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492782082
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492782121
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492782283
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492782616
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492782618
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492782664
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492783339
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492783408
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492783410
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492783618
+./sim-outorder -config processor_2.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_2_compress.txt
+#+1492783622
+./sim-outorder -config processor_2.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_2_anagram.txt
+#+1492783643
+./sim-outorder -config processor_2.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_2_cc1.txt
+#+1492784139
+./sim-outorder -config processor_2.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_2_go.txt
+#+1492787569
+./sim-outorder -config processor_3.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_3_compress.txt
+#+1492787579
+./sim-outorder -config processor_3.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_3_anagram.txt
+#+1492787600
+./sim-outorder -config processor_3.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_3_cc1.txt
+#+1492787610
+./sim-outorder -config processor_3.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_3_go.txt
+#+1492787794
+./sim-outorder -config processor_3.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_3_compress.txt
+#+1492787796
+./sim-outorder -config processor_3.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_3_anagram.txt
+#+1492787815
+./sim-outorder -config processor_3.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_3_cc1.txt
+#+1492788696
+./sim-outorder -config processor_3.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_3_compress.txt
+#+1492788700
+./sim-outorder -config processor_3.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_3_anagram.txt
+#+1492788713
+./sim-outorder -config processor_3.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_3_cc1.txt
+#+1492789169
+./sim-outorder -config processor_3.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_3_compress.txt
+#+1492789171
+./sim-outorder -config processor_3.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_3_anagram.txt
+#+1492789195
+./sim-outorder -config processor_3.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_3_cc1.txt
+#+1492789504
+./sim-outorder -config processor_3.cfg ../benchmarks/compress95.alpha < ../benchmarks/compress95.in > & ../../ILP_Project/pro_3_compress.txt
+#+1492789512
+./sim-outorder -config processor_3.cfg ../benchmarks/anagram.alpha ../benchmarks/words < ../benchmarks/anagram.in > & ../../ILP_Project/pro_3_anagram.txt
+#+1492789522
+./sim-outorder -config processor_3.cfg ../benchmarks/cc1.alpha -O ../benchmarks/1stmt.i > & ../../ILP_Project/pro_3_cc1.txt
+#+1492789529
+./sim-outorder -config processor_3.cfg ../benchmarks/go.alpha 50 9 ../benchmarks/2stone9.in > & ../../ILP_Project/pro_3_go.txt
+#+1492793863
+exit
+#+1493519688
+mkdir TLP_Warmup
+#+1493519689
+ls
+#+1493519695
+cd TLP_Warmup/
+#+1493519833
+cat /proc/cpuinfo
+#+1493519937
+gcc -lpthread -o dotprod dotprod_pthreads.c
+#+1493575911
+rm TRL_Warmup2
+#+1493575927
+rmdir TRL_Warmup2
+#+1493575934
+cd ..
+#+1493575947
+rmdir TLP_Warmup2/
+#+1493575950
+ls
+#+1493582346
+cd TLP_Warmup/
+#+1493582347
+ls
+#+1493582384
+gcc -lpthread -o dotprod dotprod_pthreads.c
+#+1493582391
+exit
+#+1493587877
+cd
+#+1493587881
+ls
+#+1493587885
+cd TLP_Warmup/
+#+1493587907
+exit
+#+1493587929
+ls
+#+1493587937
+cd TLP_Warmup/
+#+1493588272
+ls
+#+1493588275
+cd ..
+#+1493588276
+ls
+#+1493588278
+ls -a
+#+1493588296
+cd .ssh/
+#+1493588297
+ls
+#+1493588300
+ls -a
+#+1493588310
+less known_hosts
+#+1493588327
+cd ..
+#+1493588330
+ls -a
+#+1493588590
+ls
+#+1493588593
+cd ..
+#+1493588594
+ls
+#+1493588597
+cd ..
+#+1493588599
+ls
+#+1493588602
+cd ..
+#+1493588604
+pwd
+#+1493588606
+cd ..
+#+1493588608
+pwd
+#+1493588615
+ls *.cshrc
+#+1493588625
+ls *cshrc
+#+1493588629
+ls *.c
+#+1493588641
+ls *.c
+#+1493588645
+ls -R *.c
+#+1493588652
+ls -a *.c
+#+1493589449
+pwd
+#+1493589451
+ls -a
+#+1493589470
+ls -a *.cshrc
+#+1493589475
+ls -a -R *.cshrc
+#+1493589481
+ls -a -R *.c
+#+1493589484
+ls -a -R $.c
+#+1493589488
+ls -a -R ~.c
+#+1493589497
+ls -a *.c
+#+1493589535
+find *.cshrc
+#+1493589586
+find /etc -name '*.cshrc' -type f
+#+1493589595
+find / -name '*.cshrc' -type f
+#+1493589738
+pwd
+#+1493589741
+cd home
+#+1493589742
+pwd
+#+1493589745
+cd ahdhn/
+#+1493589748
+find / -name '*.cshrc' -type f
+#+1493589759
+find /home/ahdhn -name '*.cshrc' -type f
+#+1493589782
+find /home -name '*.cshrc' -type f
+#+1493590102
+pwd
+#+1493653898
+cd /home/ahdhn/
+#+1493653900
+pwd
+#+1493653903
+ls -a -l
+#+1493657506
+echo "$PATH"
+#+1493657565
+setenv PATH ${PATH}:/afs/ece.ucdavis.edu/users/jowens/eec171/openmpi/openmpi-latest/bin
+#+1493657568
+echo "$PATH"
+#+1493657629
+setenv MPIRUN /afs/ece.ucdavis.edu/users/jowens/eec171/openmpi/openmpi-latest/bin/mpirun
+#+1493657639
+echo "SMPIRUN"
+#+1493657645
+echo "$MPIRUN"
+#+1493657718
+cd TLP_Warmup/
+#+1493657720
+ls
+#+1493657753
+mpicc dotprod_mpi.c -o dotprod_mpi
+#+1493657764
+setenv PATH ${PATH}:/afs/ece.ucdavis.edu/users/jowens/eec171/openmpi/openmpilatest/bin
+#+1493657775
+setenv MPIRUN /afs/ece.ucdavis.edu/users/jowens/eec171/openmpi/openmpilatest/bin/mpirun
+#+1493657778
+mpicc dotprod_mpi.c -o dotprod_mpi
+#+1493657796
+cp dotprod_mpi.c ../
+#+1493657804
+cd ..
+#+1493657806
+ls
+#+1493657809
+mpicc dotprod_mpi.c -o dotprod_mpi
+#+1493657994
+which gcc
+#+1493658000
+which mpicc
+#+1493658012
+which mpirun
+#+1493658030
+ls
+#+1493658037
+rm dotprod_mpi.c
+#+1493658043
+ls
+#+1493658046
+cd TLP_Warmup/
+#+1493658047
+ls
+#+1493658098
+cat /proc/cpuinfo
+#+1493682787
+exit
+#+1493684927
+exit
+#+1493686747
+echo $HOST
+#+1493687567
+setenv PATH ${PATH}\:/afs/ece.ucdavis.edu/users/jowens/eec171/openmpi/openmpi-latest/bin
+#+1493687613
+setenv MPIRUN /afs/ece.ucdavis.edu/users/jowens/eec171/openmpi/openmpi-latest/bin/mpirun
+#+1493688873
+exit
+#+1493689032
+cd TLP_Warmup/
+#+1493689044
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689152
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689371
+mpicc -o dotprod_mpi dotprod_mpi.c
+#+1493689374
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689586
+mpicc -o dotprod_mpi dotprod_mpi.c
+#+1493689607
+mpicc -o dotprod_mpi dotprod_mpi.c
+#+1493689612
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689695
+mpicc -o dotprod_mpi dotprod_mpi.c
+#+1493689697
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689706
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689965
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689977
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493689981
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1493690002
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm1.txt
+#+1493690008
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm2.txt
+#+1493690014
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm3.txt
+#+1493690022
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm4.txt
+#+1493690028
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm5.txt
+#+1493690036
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm6.txt
+#+1493690043
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm7.txt
+#+1493690050
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm8.txt
+#+1493690057
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm9.txt
+#+1493690063
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm10.txt
+#+1493690069
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm11.txt
+#+1493690078
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm12.txt
+#+1493690094
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm13.txt
+#+1493690101
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm14.txt
+#+1493690107
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm15.txt
+#+1493690130
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm16.txt
+#+1493690145
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm17.txt
+#+1493690162
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm18.txt
+#+1493690169
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm19.txt
+#+1493690183
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm20.txt
+#+1493690196
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm21.txt
+#+1493690214
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm22.txt
+#+1493690222
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm23.txt
+#+1493690228
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm24.txt
+#+1493690235
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm25.txt
+#+1493690250
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm2.txt
+#+1493690254
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm26.txt
+#+1493690260
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm27.txt
+#+1493690267
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm28.txt
+#+1493690273
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm29.txt
+#+1493690289
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm30.txt
+#+1493690311
+mkdir 10M
+#+1493690312
+ls
+#+1493690323
+mv *.txt 10M/
+#+1493690355
+mpicc -o dotprod_mpi dotprod_mpi.c
+#+1493690357
+mpicc -o dotprod_mpi dotprod_mpi.c
+#+1493690364
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm.txt
+#+1493690380
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm1.txt
+#+1493690385
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm2.txt
+#+1493690390
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm3.txt
+#+1493690396
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm4.txt
+#+1493690401
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm5.txt
+#+1493690438
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm6.txt
+#+1493690448
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm7.txt
+#+1493690454
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm8.txt
+#+1493690462
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm9.txt
+#+1493690478
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm10.txt
+#+1493690489
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm11.txt
+#+1493690506
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm12.txt
+#+1493690523
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm13.txt
+#+1493690534
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm14.txt
+#+1493690546
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm15.txt
+#+1493690557
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm16.txt
+#+1493690568
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm17.txt
+#+1493690579
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm18.txt
+#+1493690589
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm19.txt
+#+1493690596
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm20.txt
+#+1493690601
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm21.txt
+#+1493690609
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm22.txt
+#+1493690619
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm23.txt
+#+1493690626
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm24.txt
+#+1493690633
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm25.txt
+#+1493690644
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm26.txt
+#+1493690656
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm27.txt
+#+1493690667
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm28.txt
+#+1493690674
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi > sm29.txt
+#+1493690690
+mkdir 100
+#+1493690691
+ls
+#+1493690704
+mv *.txt 100/
+#+1493691451
+ls
+#+1493691455
+cd 10
+#+1493691458
+cd 100/
+#+1493691459
+ls
+#+1493691464
+rm *.txt
+#+1493691489
+ls
+#+1493691493
+rm *.tct
+#+1493691495
+rm *.tx
+#+1493691497
+rm *.txt
+#+1493691500
+ls
+#+1493691503
+rm *.txt
+#+1493691505
+ls
+#+1493691508
+cd ..
+#+1493691512
+rm 100/
+#+1493691513
+y
+#+1493691514
+ls
+#+1493691523
+rmdir 100/
+#+1493691526
+ls
+#+1493691534
+rm -r 10M/
+#+1493691549
+ls
+#+1493691607
+exit
+#+1494112389
+sftp ahdhn@snake.ece.ucdavis.edu
+#+1494783591
+ls TLP_Project/
+#+1494783598
+cd TLP_Project/
+#+1494783599
+ls
+#+1494802824
+ls
+#+1494802831
+cd TLP_Warmup/
+#+1494802832
+ls
+#+1494802862
+echo ${PATH}
+#+1494802872
+which MPIRUN
+#+1494802882
+which mpicc
+#+1494803080
+./mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1494803087
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi
+#+1494803238
+mpicc dotprod_mpi.c -o dotprod_mpi2
+#+1494803284
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi2
+#+1494803482
+cat MPI_HOSTS
+#+1494803488
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotgcc -o newton_pthread newton_pthread#+1494804462
+#+1495920072
+mpirun -npernode 2 -np 6 -hostfile MPI_HOSTS --mca btl_tcp_if_include eno1 dotprod_mpi2
+#+1494804468
+exit
+#+1494808812
+echo
+#+1494812600
+echo
+#+1494815993
+cho
+#+1494815994
+echo
+#+1494817311
+echo
+#+1494856536
+echo
+#+1494856567
+echo lol
+#+1494859771
+echo lol
+#+1495920072
+pthread newton_pthread.c -lm
+#+1494782752
+./newton_pthread
+#+1494782757
+./newton_pthread
+#+1494782881
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494782902
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494783426
+./compare newton newton_original_pthread.bmp
+#+1494783623
+./newton
+#+1494783648
+./compare newton.bmp newton_original.bmp
+#+1494783667
+./compare newton_original_pthread.bmp newton_original_pthread.bmp
+#+1494783697
+./compare newton_original_pthread.bmp newton_original.bmp
+#+1494783778
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494783784
+./newton_pthread
+#+1494783800
+rm newton.bmp
+#+1494783805
+./newton_pthread
+#+1494783826
+./newton_pthread
+#+1494783844
+rm newton.bmp
+#+1494783857
+rm mask.bmp
+#+1494783865
+./newton_pthread
+#+1494783930
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494783934
+./newton_pthread
+#+1494784154
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494784156
+./newton_pthread
+#+1494784182
+./compare newton.bmp newton_original_pthread.bmp
+#+1494784342
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494784388
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494784395
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494784438
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494784480
+gcc -o newton_pthread newton_pthread.c -lm
+#+1494784485
+./newton_pthread
+#+1494786673
+man -k pthread
+#+1494794632
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494794677
+rm newton_pthread
+#+1494794686
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494794704
+./newton_pthread
+#+1494794869
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494794891
+./newton_pthread
+#+1494795203
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494795280
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494795490
+./newton
+#+1494795498
+./newton_pthread
+#+1494795564
+./newton
+#+1494795567
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494795573
+./newton_pthread
+#+1494795607
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494795690
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494795719
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494795739
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494796073
+./newton_pthread
+#+1494797968
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494798922
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494798947
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494798962
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494798985
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494798993
+./newton_pthread
+#+1494799131
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494799133
+./newton_pthread
+#+1494799606
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494799622
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494799627
+./newton_pthread
+#+1494799643
+rm newton.bmp
+#+1494799647
+./newton_pthread
+#+1494800622
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494800625
+./newton_pthread
+#+1494800641
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494800643
+./newton_pthread
+#+1494800864
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494800866
+./newton_pthread
+#+1494800870
+./newton_pthread
+#+1494800873
+./newton_pthread
+#+1494800876
+./newton_pthread
+#+1494800879
+./newton_pthread
+#+1494801421
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801424
+./newton_pthread
+#+1494801520
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801522
+./newton_pthread
+#+1494801552
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801554
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801556
+./newton_pthread
+#+1494801627
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801629
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801634
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801645
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801659
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801662
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801666
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801679
+./newton_pthread
+#+1494801720
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801722
+./newton_pthread
+#+1494801772
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801792
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801822
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494801841
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802106
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802110
+./newton_pthread
+#+1494802114
+./newton_pthread
+#+1494802115
+./newton_pthread
+#+1494802155
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802196
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802222
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802342
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802395
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802400
+./newton_pthread
+#+1494802425
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802467
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802489
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802503
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802567
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802571
+./newton_pthread
+#+1494802598
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494802601
+./newton_pthread
+#+1494802626
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494808830
+echo
+#+1494811466
+echo
+#+1494812597
+echo
+#+1494816002
+echo
+#+1494817317
+echo
+#+1494856542
+echo
+#+1494856558
+echo lol
+#+1494859780
+echo lol
+#+1494861410
+./newton_pthread
+#+1494861511
+./newton_pthread
+#+1494861536
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861539
+./newton_pthread
+#+1494861546
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861548
+./newton_pthread
+#+1494861550
+./newton_pthread
+#+1494861553
+./newton_pthread
+#+1494861594
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861595
+./newton_pthread
+#+1494861597
+./newton_pthread
+#+1494861599
+./newton_pthread
+#+1494861627
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861628
+./newton_pthread
+#+1494861630
+./newton_pthread
+#+1494861631
+./newton_pthread
+#+1494861686
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861687
+./newton_pthread
+#+1494861689
+./newton_pthread
+#+1494861690
+./newton_pthread
+#+1494861717
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861718
+./newton_pthread
+#+1494861720
+./newton_pthread
+#+1494861721
+./newton_pthread
+#+1494861746
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861748
+./newton_pthread
+#+1494861751
+./newton_pthread
+#+1494861753
+./newton_pthread
+#+1494861793
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861795
+./newton_pthread
+#+1494861796
+./newton_pthread
+#+1494861797
+./newton_pthread
+#+1494861857
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861858
+./newton_pthread
+#+1494861859
+./newton_pthread
+#+1494861861
+./newton_pthread
+#+1494861884
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861886
+./newton_pthread
+#+1494861887
+./newton_pthread
+#+1494861889
+./newton_pthread
+#+1494861915
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861917
+./newton_pthread
+#+1494861918
+./newton_pthread
+#+1494861920
+./newton_pthread
+#+1494861976
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861977
+./newton_pthread
+#+1494861978
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494861980
+./newton_pthread
+#+1494861983
+./newton_pthread
+#+1494861985
+./newton_pthread
+#+1494862005
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862006
+./newton_pthread
+#+1494862009
+./newton_pthread
+#+1494862011
+./newton_pthread
+#+1494862032
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862035
+./newton_pthread
+#+1494862036
+./newton_pthread
+#+1494862039
+./newton_pthread
+#+1494862063
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862064
+./newton_pthread
+#+1494862067
+./newton_pthread
+#+1494862069
+./newton_pthread
+#+1494862086
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862088
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862089
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862091
+./newton_pthread
+#+1494862092
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862093
+./newton_pthread
+#+1494862096
+./newton_pthread
+#+1494862098
+./newton_pthread
+#+1494862120
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862121
+./newton_pthread
+#+1494862123
+./newton_pthread
+#+1494862126
+./newton_pthread
+#+1494862161
+gcc -lpthread -o newton_pthread newton_pthread.c -lm
+#+1494862162
+./newton_pthread
+#+1494862166
+./newton_pthread
+#+1494862169
+./newton_pthread
+#+1495920074
+who
+#+1495920176
+exit
+#+1495920223
+who
+#+1495921056
+ls
+#+1495921062
+cd DLP_Project/
+#+1495921063
+ls
+#+1495921077
+mv reduce.cu reduce/
+#+1495921090
+mv Makefile reduce/
+#+1495921098
+mv reduce_gold.cpp reduce/
+#+1495921659
+ls
+#+1495921661
+cd re
+#+1495921667
+cd reduce/
+#+1495921669
+ls
+#+1495921671
+make
+#+1495921688
+make clean
+#+1495923046
+ls
+#+1495923062
+nvcc -o reduce reduce.cu
+#+1495923107
+cd ..
+#+1495923108
+ls
+#+1495923111
+cd regs/
+#+1495923120
+nvcc -o regs regs.cu
+#+1495927046
+which nvcc
+#+1495928192
+nvcc --version
+#+1496519672
+ls
+#+1496519674
+cd DLP_Project/
+#+1496519676
+ls
+#+1496519679
+cd nvidia-sdk-eec171.tar
+#+1496519680
+ls
+#+1496519686
+cd GPU/
+#+1496519687
+ls
+#+1496519695
+cd C/
+#+1496519699
+make clean
+#+1496519701
+cmake
+#+1496519704
+mak
+#+1496519706
+make
+#+1496519726
+./bin/linux/release/flops
+#+1496521736
+cd ..
+#+1496521738
+ls
+#+1496521740
+cd .
+#+1496521743
+cd ..
+#+1496521744
+ls
+#+1496521752
+./devQuery
+#+1496526002
+ls
+#+1496526008
+nvcc device.cu -o device
+#+1496526028
+./device
+#+1496890773
+ls
+#+1496890775
+cd DLP_Project/
+#+1496890776
+ls
+#+1496890779
+cd GPU/
+#+1496890779
+ls
+#+1496890783
+cd C/
+#+1496890784
+ls
+#+1496890803
+cd ..
+#+1496890803
+ls
+#+1496890808
+cd ..
+#+1496890810
+ls
+#+1496890812
+cd re
+#+1496890817
+cd regs/
+#+1496890818
+ls
+#+1496890834
+cd ..
+#+1496890835
+ls
+#+1496890839
+cd reduce/
+#+1496890840
+ls
+#+1496890846
+../../bin/linux/release/reduce
+#+1496890863
+make
+#+1496890868
+ls
+#+1496890870
+make
+#+1496890901
+make
+#+1496890994
+cd /home/ahdhn/DLP_Project/GPU/C/src/reduce/
+#+1496890996
+ls
+#+1496890999
+make
+#+1496891017
+../../bin/linux/release/reduce
+#+1496894172
+make
+#+1496894175
+../../bin/linux/release/reduce
+#+1496894198
+make
+#+1496894200
+../../bin/linux/release/reduce
+#+1496894279
+make
+#+1496894282
+../../bin/linux/release/reduce
+#+1496894323
+make
+#+1496894325
+make
+#+1496894326
+../../bin/linux/release/reduce
+#+1496894340
+make
+#+1496894342
+../../bin/linux/release/reduce
+#+1496894377
+make
+#+1496894379
+../../bin/linux/release/reduce
+#+1496894384
+../../bin/linux/release/reduce
+#+1496894414
+make
+#+1496894416
+make
+#+1496894418
+../../bin/linux/release/reduce
+#+1496894448
+make
+#+1496894450
+../../bin/linux/release/reduce
+#+1496895164
+make
+#+1496895167
+../../bin/linux/release/reduce
+#+1496932551
+make
+#+1496932559
+../../bin/linux/release/reduce
+#+1496932579
+make
+#+1496932585
+../../bin/linux/release/reduce
+#+1496932611
+../../bin/linux/release/reduce
+#+1496932616
+../../bin/linux/release/reduce
+#+1496932676
+make
+#+1496932678
+../../bin/linux/release/reduce
+#+1496932686
+../../bin/linux/release/reduce
+#+1496932729
+make
+#+1496932731
+../../bin/linux/release/reduce
+#+1496932735
+../../bin/linux/release/reduce
+#+1496932756
+mkae
+#+1496932758
+make
+#+1496932761
+../../bin/linux/release/reduce
+#+1496932780
+ll
+#+1496932786
+make
+#+1496932794
+make
+#+1496932796
+make
+#+1496932797
+make
+#+1496932801
+../../bin/linux/release/reduce
+#+1496932818
+make
+#+1496932820
+../../bin/linux/release/reduce
+#+1496932837
+make
+#+1496932839
+../../bin/linux/release/reduce
+#+1496932843
+../../bin/linux/release/reduce
+#+1496932861
+make
+#+1496932863
+../../bin/linux/release/reduce
+#+1496932867
+../../bin/linux/release/reduce
+#+1496932882
+make
+#+1496932885
+../../bin/linux/release/reduce
+#+1496932888
+../../bin/linux/release/reduce
+#+1496932904
+make
+#+1496932907
+../../bin/linux/release/reduce
+#+1496932909
+make
+#+1496932910
+../../bin/linux/release/reduce
+#+1496933031
+make
+#+1496933033
+../../bin/linux/release/reduce
+#+1496933063
+s
+#+1496933064
+make
+#+1496933067
+../../bin/linux/release/reduce
+#+1496933075
+make
+#+1496933078
+../../bin/linux/release/reduce
+#+1496933100
+make
+#+1496933102
+../../bin/linux/release/reduce
+#+1496933106
+../../bin/linux/release/reduce
+#+1496933516
+make
+#+1496933518
+../../bin/linux/release/reduce
+#+1496933521
+../../bin/linux/release/reduce
+#+1496933546
+make
+#+1496933548
+make
+#+1496933555
+make
+#+1496933558
+../../bin/linux/release/reduce
+#+1496933562
+../../bin/linux/release/reduce
+#+1496933580
+make
+#+1496933582
+../../bin/linux/release/reduce
+#+1496933585
+../../bin/linux/release/reduce
+#+1496933605
+make
+#+1496933607
+../../bin/linux/release/reduce
+#+1496933609
+../../bin/linux/release/reduce
+#+1496933629
+make
+#+1496933631
+../../bin/linux/release/reduce
+#+1496933633
+../../bin/linux/release/reduce
+#+1497138117
+exit
+#+1499635684
+chmod +x~/.
+#+1499635697
+chmod a+x ~/.
+#+1499635711
+chmod -R a+X~/Html
+#+1499635716
+chmod -R a+X ~/Html
+#+1499635727
+chmod -R a+r ~/Html
+#+1499635750
+chmod -R a+X ~/Html
+#+1499636586
+chmod -R a+X ~/Html
+#+1499636679
+chmod -R a+X ~/Html
+#+1499636694
+chmod -R a+X ~/Html
+#+1499636749
+chmod -R a+X ~/Html
+#+1499638923
+chmod -R a+X ~/Html
+#+1499639095
+chmod -R a+X ~/Html
+#+1499639123
+chmod -R a+X ~/Html
+#+1499639147
+chmod -R a+X ~/Html
+#+1499639201
+chmod -R a+X ~/Html
+#+1499639485
+chmod -R a+X ~/Html
+#+1499639550
+chmod -R a+X ~/Html
+#+1499639695
+chmod -R a+X ~/Html
+#+1499639713
+chmod -R a+X ~/Html
+#+1499639750
+chmod -R a+X ~/Html
+#+1499639751
+chmod -R a+X ~/Html
+#+1499639782
+chmod -R a+X ~/Html
+#+1499639789
+chmod -R a+X ~/Html
+#+1499639804
+chmod -R a+X ~/Html
+#+1499640531
+chmod -R a+X ~/Html
+#+1499640545
+chmod -R a+X ~/Html
+#+1499640545
+chmod -R a+X ~/Html
+#+1499640558
+chmod -R a+X ~/Html
+#+1499640609
+chmod -R a+X ~/Html
+#+1499640609
+chmod -R a+X ~/Html
+#+1499640610
+chmod -R a+X ~/Html
+#+1499640630
+chmod -R a+r ~/Html
+#+1499640642
+chmod -R a+X ~/Html
+#+1499640645
+chmod -R a+X ~/Html
+#+1499640648
+chmod -R a+r ~/Html
+#+1499641027
+chmod -R a+r ~/Html
+#+1499641028
+chmod -R a+r ~/Html
+#+1499641092
+chmod -R a+r ~/Html
+#+1499641093
+chmod -R a+r ~/Html
+#+1499641122
+chmod -R a+r ~/Html
+#+1499641134
+chmod -R a+r ~/Html
+#+1499641135
+chmod -R a+r ~/Html
+#+1499641164
+chmod -R a+r ~/Html
+#+1499641209
+chmod -R a+r ~/Html
+#+1499641210
+chmod -R a+r ~/Html
+#+1499641261
+chmod -R a+r ~/Html
+#+1499641262
+chmod -R a+r ~/Html
+#+1499641284
+chmod -R a+r ~/Html
+#+1499641287
+chmod -R a+r ~/Html
+#+1499641588
+pwd
+#+1499641601
+cd Html/
+#+1499641604
+cd images/
+#+1499641609
+rm mesh_imp_rep.JPG
+#+1499641628
+cd ..
+#+1499641631
+pwd
+#+1499641639
+cd ..
+#+1499641640
+pwd
+#+1499641646
+chmod -R a+r ~/Html
+#+1499641648
+chmod -R a+r ~/Html
+#+1499641654
+chmod -R a+r ~/Html
+#+1499641657
+chmod -R a+X ~/Html
+#+1499641658
+chmod -R a+X ~/Html
+#+1499641714
+chmod -R a+r ~/Html
+#+1499641715
+chmod -R a+r ~/Html
+#+1499641718
+chmod -R a+X ~/Html
+#+1499641730
+chmod -R a+X ~/Html
+#+1499641731
+chmod -R a+r ~/Html
+#+1499641733
+chmod -R a+r ~/Html
+#+1499641735
+chmod -R a+X ~/Html
+#+1499647165
+chmod -R a+r ~/Html
+#+1499647167
+chmod -R a+X ~/Html
+#+1500573769
+which nvcc
+#+1500573840
+which gcc
+#+1500581981
+ls
+#+1500581986
+exit
+#+1500582294
+cat /proc/cpuinfo
+#+1500582314
+nvclock
+#+1500582316
+./nvclock
+#+1500582375
+nvidia-smi
+#+1500582377
+nvidia -smi
+#+1500582383
+./nvidia -smi
+#+1500582505
+lspci -vnn | grep VGA -A 12
+#+1500582605
+pwd
+#+1500582607
+ls
+#+1500582625
+mk trilinos
+#+1500582629
+mkdir trilinos
+#+1500582633
+cd trilinos/
+#+1500582633
+ls
+#+1500582636
+ls -a
+#+1500582835
+git clone https://github.com/Ahdhn/Trilinos/tree/master
+#+1500582991
+git clone git@github.com:Ahdhn/Trilinos.git
+#+1500583035
+git clone git@github.com:Ahdhn/Trilinos.git
+#+1500583045
+git clone ahdhn@github.com:Ahdhn/Trilinos.git
+#+1500583083
+git clone https://github.com/Ahdhn/Trilinos
+#+1500584108
+quota
+#+1500584169
+quota
+#+1500584220
+ls
+#+1500584226
+cd Trilinos/
+#+1500584227
+ls
+#+1500584234
+ls -a
+#+1500584243
+rm -r .git
+#+1500584261
+ls
+#+1500584272
+rm -r .git
+#+1500584310
+y
+#+1500584311
+y
+#+1500584325
+rm -rf .git
+#+1500584327
+ls
+#+1500584333
+quota
+#+1500585028
+quota
+#+1500585138
+quota --human-readable
+#+1500585177
+ls
+#+1500585180
+cd ..
+#+1500585181
+ls
+#+1500585189
+rm -rf Trilinos/
+#+1500585447
+ls
+#+1500585451
+rm -rf Trilinos/
+#+1500585453
+ls
+#+1500585459
+mk Trilinos
+#+1500585465
+mkdir Trilinos
+#+1500585466
+ls
+#+1500587073
+ls
+#+1500587075
+cd ..
+#+1500587075
+ls
+#+1500587082
+rm -rf trilinos/
+#+1500587085
+ls
+#+1501270648
+ls
+#+1501270651
+cd Html/
+#+1501270653
+ls
+#+1501270660
+mv Ahmed_Hassan_Mahmoud_Resume_July_17.pdf files/
+#+1501270781
+pwd
+#+1501270798
+chmod -R a+X ~/Html
+#+1501270803
+chmod -R a+r ~/Html
+#+1501270847
+chmod -R a+r ~/Html
+#+1501270856
+chmod -R a+X ~/Html
+#+1501272237
+exit
+#+1501281523
+chmod -R a+r ~/Html
+#+1501281527
+chmod -R a+X ~/Html
+#+1501281546
+chmod -R a+X ~/Html
+#+1501281550
+chmod -R a+r ~/Html
+#+1501281718
+chmod -R a+r ~/Html
+#+1501281721
+chmod -R a+X ~/Html
+#+1502477325
+exit

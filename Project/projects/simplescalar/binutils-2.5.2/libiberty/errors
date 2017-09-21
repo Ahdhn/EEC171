@@ -1,0 +1,4 @@
+dummy.o: In function `main':
+/afs/ece/users/jowens/simplescalar/binutils-2.5.2/libiberty/./functions.def:40: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+/afs/ece/users/jowens/simplescalar/binutils-2.5.2/libiberty/./functions.def:56: warning: `sys_errlist' is deprecated; use `strerror' or `strerror_r' instead
+/afs/ece/users/jowens/simplescalar/binutils-2.5.2/libiberty/./functions.def:55: warning: `sys_nerr' is deprecated; use `strerror' or `strerror_r' instead

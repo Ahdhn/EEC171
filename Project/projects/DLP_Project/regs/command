@@ -1,0 +1,3 @@
+Compile: nvcc -arch=sm_20 -Xptxas="-v" -I /opt/cuda/samples/common/inc/ regs.cu
+Run: ./a.out
+
